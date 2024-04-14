@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BlogDeCafé</title>
+    <meta name="description" content="Página web para un blog de un café">
     <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,7 +40,10 @@
 
             <article class="entrada">
                 <div class="entrada__imagen">
-                    <img src="img/blog1.jpg" alt="imagen blog">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog1.webp" type="image/webp">
+                        <img loading="lazy" src="img/blog1.jpg" alt="imagen blog">
+                    </picture>
                 </div>
                 <div class="entrada__contenido">
                     <h1 class="no-margin">Tipos de granos de café</h1>
@@ -52,7 +56,10 @@
 
             <article class="entrada">
                 <div class="entrada__imagen">
-                    <img src="img/blog2.jpg" alt="imagen blog">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog2.webp" type="image/webp">
+                        <img loading="lazy" src="img/blog2.jpg" alt="imagen blog">
+                    </picture>
                 </div>
                 <div class="entrada__contenido">
                     <h1 class="no-margin">Mejores recetas de café para iniciar el día</h1>
@@ -65,7 +72,10 @@
 
             <article class="entrada">
                 <div class="entrada__imagen">
-                    <img src="img/blog3.jpg" alt="imagen blog">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog3.webp" type="image/webp">
+                        <img loading="lazy" src="img/blog3.jpg" alt="imagen blog">
+                    </picture>
                 </div>
                 <div class="entrada__contenido">
                     <h1 class="no-margin">Beneficios del café</h1>
@@ -88,7 +98,7 @@
                     <p class="widget-curso__label">Cupo:
                         <span class="widget-curso__info">20 Personas</span>
                     </p>
-                    <a href="cursos.html" class="boton boton--secundario">Más Información</a>
+                    <a href="cursos.html" class="boton boton--secundario">Más Información de nuestros cursos</a>
                 </li>
                 <li class="widget-curso">
                     <h4 class="no-margin">4 Recetas de café para principiantes</h4>
@@ -98,7 +108,7 @@
                     <p class="widget-curso__label">Cupo:
                         <span class="widget-curso__info">20 Personas</span>
                     </p>
-                    <a href="cursos.html" class="boton boton--secundario">Más Información</a>
+                    <a href="cursos.html" class="boton boton--secundario">Más Información de nuestros cursos</a>
                 </li>
             </ul>
         </aside>
@@ -119,5 +129,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="js/modernizr.js"></script>
 </body>
 </html>
