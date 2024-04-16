@@ -26,8 +26,4 @@ El proyecto está organizado en múltiples páginas HTML, cada una con su propio
 
 Para utilizar el proyecto, simplemente abre el archivo `index.html` en tu navegador web favorito. Navega a través de las diferentes páginas del sitio para explorar los artículos, recetas y cursos disponibles.
 
-¡Disfruta de tu visita en BlogDeCafé!
-
----
-
 *Este proyecto fue creado como parte de una práctica para mejorar habilidades en el desarrollo web, incluyendo la creación de sitios web HTML con múltiples páginas, diseño responsivo, optimización del rendimiento y uso de tecnologías modernas.*
